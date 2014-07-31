@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DebugTools.cpp" />
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="DebugShapes.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugTools.h" />
+    <ClInclude Include="ExportHeader.h" />
+    <ClInclude Include="DebugShapes.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{b709b7a1-1bb7-46fe-b22d-97e09bfbdec9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
