@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Engine.vcxproj", "{CCD95561-8D6E-4176-9F8A-0A754A3D682D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugTools", "..\DebugTools\DebugTools.vcxproj", "{6AFBBE93-BB7D-48D6-8ED9-B809E333F18C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlphaBend", "..\..\06 Graphics\AlphaBend\AlphaBend.vcxproj", "{C4143486-5918-4299-968E-46634036EE1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCD95561-8D6E-4176-9F8A-0A754A3D682D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCD95561-8D6E-4176-9F8A-0A754A3D682D}.Debug|Win32.Build.0 = Debug|Win32
+		{CCD95561-8D6E-4176-9F8A-0A754A3D682D}.Release|Win32.ActiveCfg = Release|Win32
+		{CCD95561-8D6E-4176-9F8A-0A754A3D682D}.Release|Win32.Build.0 = Release|Win32
+		{6AFBBE93-BB7D-48D6-8ED9-B809E333F18C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6AFBBE93-BB7D-48D6-8ED9-B809E333F18C}.Debug|Win32.Build.0 = Debug|Win32
+		{6AFBBE93-BB7D-48D6-8ED9-B809E333F18C}.Release|Win32.ActiveCfg = Release|Win32
+		{6AFBBE93-BB7D-48D6-8ED9-B809E333F18C}.Release|Win32.Build.0 = Release|Win32
+		{C4143486-5918-4299-968E-46634036EE1E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4143486-5918-4299-968E-46634036EE1E}.Debug|Win32.Build.0 = Debug|Win32
+		{C4143486-5918-4299-968E-46634036EE1E}.Release|Win32.ActiveCfg = Release|Win32
+		{C4143486-5918-4299-968E-46634036EE1E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

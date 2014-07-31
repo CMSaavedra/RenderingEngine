@@ -1,0 +1,28 @@
+﻿Build started 7/30/2014 1:15:44 AM.
+     1>Project "C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Engine.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\Qt\include" /I"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\glew\include" /I"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\glm" /I"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\NeumontTools\include" /I"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\LibNoise\include" /ZI /nologo /W4 /WX /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ENGINE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\Temp\\" /Fd"Debug\Temp\vc100.pdb" /Gd /TP /wd4201 /wd4251 /wd4127 /wd4244 /wd4482 /wd4172 /wd4100 /wd4996 /analyze- /errorReport:queue Camera.cpp Clock.cpp Engine.cpp Renderer.cpp Renderer_moc.cpp UniformManager.cpp
+         UniformManager.cpp
+         Renderer_moc.cpp
+         Renderer.cpp
+         Engine.cpp
+         Clock.cpp
+         Camera.cpp
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Debug\Engine.dll" /NOLOGO /LIBPATH:"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\glew\lib" /LIBPATH:"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\NeumontTools\lib" /LIBPATH:"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\Qt\lib" /LIBPATH:"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\Graphics Scene\Scene\..\..\ExternalDependencies\LibNoise\bin" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib openGL32.lib glew32d.lib glew32.lib QtCored4.lib QtGuid4.lib QtOpenGLd4.lib NeumontTools.lib libnoise.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Temp\Engine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Debug\Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Debug\Engine.lib" /MACHINE:X86 /DLL Debug\Temp\Camera.obj
+         Debug\Temp\Clock.obj
+         Debug\Temp\Engine.obj
+         Debug\Temp\Renderer.obj
+         Debug\Temp\Renderer_moc.obj
+         Debug\Temp\UniformManager.obj
+         LINK : C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Debug\Engine.dll not found or not built by the last incremental link; performing full link
+            Creating library C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Debug\Engine.lib and object C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Debug\Engine.exp
+         Engine.vcxproj -> C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Debug\Engine.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Debug\Engine.dll;#2" /manifest Debug\Temp\Engine.dll.intermediate.manifest
+     1>Done Building Project "C:\Users\csaavedra\Documents\GitHub\RenderingEngine\ExternalDependencies\New Engine\Engine.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.15
